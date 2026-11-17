@@ -1,0 +1,184 @@
+{
+  "dataset": "ASSISTments 2009–2010 Skill Builder corrected collapsed — download URL matched",
+  "total_skill_ids": 149,
+  "material_skill_ids": 23,
+  "unsupported_skill_ids": 126,
+  "prerequisite_edges": [
+    [
+      "311",
+      "312"
+    ],
+    [
+      "39",
+      "299"
+    ],
+    [
+      "47",
+      "70"
+    ],
+    [
+      "47",
+      "77"
+    ],
+    [
+      "67",
+      "61"
+    ]
+  ],
+  "mapping": [
+    {
+      "skill_id": "16_17",
+      "skill_name": "Counting Methods",
+      "title": "Методы подсчёта",
+      "responses": 4073
+    },
+    {
+      "skill_id": "17",
+      "skill_name": "Probability of Two Distinct Events",
+      "title": "Вероятность двух событий",
+      "responses": 3890
+    },
+    {
+      "skill_id": "277",
+      "skill_name": "Addition and Subtraction Integers",
+      "title": "Сложение и вычитание целых чисел",
+      "responses": 12741
+    },
+    {
+      "skill_id": "280",
+      "skill_name": "Addition and Subtraction Fractions",
+      "title": "Сложение и вычитание дробей",
+      "responses": 11334
+    },
+    {
+      "skill_id": "290",
+      "skill_name": "Reflection",
+      "title": "Отражение фигур",
+      "responses": 459
+    },
+    {
+      "skill_id": "292",
+      "skill_name": "Rotations",
+      "title": "Повороты фигур",
+      "responses": 413
+    },
+    {
+      "skill_id": "294",
+      "skill_name": "Area Irregular Figure",
+      "title": "Площадь фигуры неправильной формы",
+      "responses": 1760
+    },
+    {
+      "skill_id": "299",
+      "skill_name": "Surface Area Cylinder",
+      "title": "Площадь поверхности цилиндра",
+      "responses": 491
+    },
+    {
+      "skill_id": "2_37_48_77",
+      "skill_name": "Circle Graph",
+      "title": "Круговые диаграммы",
+      "responses": 1582
+    },
+    {
+      "skill_id": "2_37_70",
+      "skill_name": "Circle Graph",
+      "title": "Круговые диаграммы",
+      "responses": 1474
+    },
+    {
+      "skill_id": "2_48_79",
+      "skill_name": "Circle Graph",
+      "title": "Круговые диаграммы",
+      "responses": 946
+    },
+    {
+      "skill_id": "2_70",
+      "skill_name": "Circle Graph",
+      "title": "Круговые диаграммы",
+      "responses": 1807
+    },
+    {
+      "skill_id": "311",
+      "skill_name": "Equation Solving Two or Fewer Steps",
+      "title": "Линейные уравнения до двух действий",
+      "responses": 24253
+    },
+    {
+      "skill_id": "312",
+      "skill_name": "Equation Solving More Than Two Steps",
+      "title": "Линейные уравнения более двух действий",
+      "responses": 8115
+    },
+    {
+      "skill_id": "39",
+      "skill_name": "Area Circle",
+      "title": "Площадь круга",
+      "responses": 1149
+    },
+    {
+      "skill_id": "47",
+      "skill_name": "Conversion of Fraction Decimals Percents",
+      "title": "Перевод дробей, десятичных дробей и процентов",
+      "responses": 18739
+    },
+    {
+      "skill_id": "61",
+      "skill_name": "Division Fractions",
+      "title": "Деление дробей",
+      "responses": 4029
+    },
+    {
+      "skill_id": "67",
+      "skill_name": "Multiplication Fractions",
+      "title": "Умножение дробей",
+      "responses": 5547
+    },
+    {
+      "skill_id": "70",
+      "skill_name": "Percent Of",
+      "title": "Процент от числа",
+      "responses": 4263
+    },
+    {
+      "skill_id": "77",
+      "skill_name": "Finding Percents",
+      "title": "Нахождение процентов",
+      "responses": 6109
+    },
+    {
+      "skill_id": "79",
+      "skill_name": "Proportion",
+      "title": "Пропорции",
+      "responses": 8068
+    },
+    {
+      "skill_id": "81",
+      "skill_name": "Unit Rate",
+      "title": "Показатель на единицу",
+      "responses": 3183
+    },
+    {
+      "skill_id": "9_12",
+      "skill_name": "Stem and Leaf Plot",
+      "title": "Диаграмма «стебель и листья»",
+      "responses": 1244
+    }
+  ],
+  "total_responses": 283105,
+  "supported_responses": 125669,
+  "supported_response_fraction": 0.4438953745076915,
+  "total_students": 4163,
+  "students_with_supported_skill": 3119,
+  "student_without_supported_skill": "21825",
+  "empty_route_guard_verified": true,
+  "model_features": [
+    "bias",
+    "log_prior_count",
+    "prior_success",
+    "log_prior_skill_count",
+    "prior_skill_success",
+    "skill_one_hot"
+  ],
+  "forbidden_current_fields_used": []
+}

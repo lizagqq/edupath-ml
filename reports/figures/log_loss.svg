@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+<rect width="720" height="300" fill="white"/><text x="20" y="30" font-size="20">Log loss: меньше — лучше</text>
+<text x="20" y="83" font-size="15">constant</text>
+<rect x="175" y="65" width="386.1" height="27" fill="#94a3b8"/>
+<text x="571.1" y="84" font-size="15">0.644</text>
+<text x="20" y="151" font-size="15">history_rule</text>
+<rect x="175" y="133" width="364.1" height="27" fill="#38bdf8"/>
+<text x="549.1" y="152" font-size="15">0.607</text>
+<text x="20" y="219" font-size="15">logistic_sgd</text>
+<rect x="175" y="201" width="339.2" height="27" fill="#0f766e"/>
+<text x="524.2" y="220" font-size="15">0.565</text>
+</svg>

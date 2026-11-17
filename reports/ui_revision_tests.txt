@@ -1,0 +1,28 @@
+test_graph_cycle_and_order (test_core.RecommendationTests.test_graph_cycle_and_order) ... ok
+test_low_data_and_prerequisites (test_core.RecommendationTests.test_low_data_and_prerequisites) ... ok
+test_personalized_plan_needs_diagnosis_and_explains_prerequisite (test_core.RecommendationTests.test_personalized_plan_needs_diagnosis_and_explains_prerequisite) ... ok
+test_retrieval (test_core.RecommendationTests.test_retrieval) ... ok
+test_circle_graph_ids_remain_distinct (test_core.ServiceTests.test_circle_graph_ids_remain_distinct) ... ok
+test_health_and_materials (test_core.ServiceTests.test_health_and_materials) ... ok
+test_no_supported_skill_history_has_no_personal_route (test_core.ServiceTests.test_no_supported_skill_history_has_no_personal_route) ... ok
+test_profiles_and_distinct_routes (test_core.ServiceTests.test_profiles_and_distinct_routes) ... ok
+test_real_diagnosis_drives_short_distinct_routes (test_core.ServiceTests.test_real_diagnosis_drives_short_distinct_routes) ... ok
+test_saved_model_excludes_current_response_fields (test_core.ServiceTests.test_saved_model_excludes_current_response_fields) ... ok
+test_endpoints (test_api.APITests.test_endpoints) ... ok
+test_invalid_requests (test_api.APITests.test_invalid_requests) ... ok
+test_web_ui_and_docs (test_api.APITests.test_web_ui_and_docs) ... ok
+test_observed_skill_counts_exclude_unseen (test_ui_presentation.PresentationTests.test_observed_skill_counts_exclude_unseen) ... ok
+test_risk_and_separate_observed_vs_predicted (test_ui_presentation.PresentationTests.test_risk_and_separate_observed_vs_predicted) ... ok
+test_route_explanation_and_safe_bar_labels (test_ui_presentation.PresentationTests.test_route_explanation_and_safe_bar_labels) ... ok
+test_source_labels_and_unknown_names (test_ui_presentation.PresentationTests.test_source_labels_and_unknown_names) ... ok
+test_all_23_catalog_records_have_fixed_lessons_and_independent_copies (test_learning_contract.LearningContractTests.test_all_23_catalog_records_have_fixed_lessons_and_independent_copies) ... ok
+test_distinct_labels_do_not_merge_histories (test_learning_contract.LearningContractTests.test_distinct_labels_do_not_merge_histories) ... ok
+test_fixed_practice_answers_against_mathematical_calculations (test_learning_contract.LearningContractTests.test_fixed_practice_answers_against_mathematical_calculations) ... ok
+test_missing_reported_fields_rejected_at_http_boundary (test_learning_contract.LearningContractTests.test_missing_reported_fields_rejected_at_http_boundary) ... ok
+test_real_response_roundtrip_and_routes (test_learning_contract.LearningContractTests.test_real_response_roundtrip_and_routes) ... ok
+test_wrong_version_broken_lesson_and_dependency_fail_explicitly (test_learning_contract.LearningContractTests.test_wrong_version_broken_lesson_and_dependency_fail_explicitly) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.782s
+
+OK

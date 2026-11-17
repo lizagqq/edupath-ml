@@ -1,0 +1,25 @@
+{
+  "api": "http://127.0.0.1:8000",
+  "sections": [
+    "Обзор ученика",
+    "Оценка знаний",
+    "Индивидуальная траектория",
+    "Качество модели"
+  ],
+  "students_checked": [
+    "79021",
+    "75169",
+    "78970"
+  ],
+  "profile_79021": {
+    "observed_skills": 93,
+    "sufficient_skills": 56
+  },
+  "route_cards_by_student": {
+    "79021": 5,
+    "75169": 2,
+    "78970": 4
+  },
+  "note": "AppTest validates Streamlit elements; inspect final CSS layout in a browser.",
+  "mode": "local-service: no HTTP"
+}

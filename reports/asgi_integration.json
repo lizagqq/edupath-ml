@@ -1,0 +1,30 @@
+{
+  "mode": "in-process ASGI with direct handler shim; no socket or threadpool",
+  "health": "ok",
+  "contract_version": 2,
+  "all_23_lessons_present": true,
+  "profile_skill_ids": 149,
+  "route_79021": [
+    "292",
+    "290",
+    "2_37_70",
+    "39",
+    "299"
+  ],
+  "other_routes": {
+    "75169": [
+      "292",
+      "9_12"
+    ],
+    "78970": [
+      "16_17",
+      "290",
+      "17",
+      "294"
+    ]
+  },
+  "material_checked": "Повороты фигур",
+  "catalog_materials": 23,
+  "missing_status": 404,
+  "invalid_status": 422
+}

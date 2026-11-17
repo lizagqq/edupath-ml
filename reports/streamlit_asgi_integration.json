@@ -1,0 +1,27 @@
+{
+  "sections": [
+    "Профиль ученика",
+    "Анализ знаний",
+    "План обучения"
+  ],
+  "students_checked": [
+    "79021",
+    "75169",
+    "78970"
+  ],
+  "route_steps": {
+    "79021": 5,
+    "75169": 2,
+    "78970": 4
+  },
+  "profile_79021": {
+    "observed_skills": 93,
+    "sufficient_skills": 56
+  },
+  "step_navigation": "passed",
+  "session_marks_isolated_by_student": true,
+  "all_recommended_lessons_opened": true,
+  "browser_visual_check": "not performed",
+  "stale_api_regression": "rejected before rendering, both missing fields reported",
+  "mode": "FastAPI ASGI -> JSON -> HTTP client validation -> Streamlit AppTest; direct handler shim, no sockets"
+}

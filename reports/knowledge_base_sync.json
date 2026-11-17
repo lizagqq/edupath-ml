@@ -1,0 +1,30 @@
+{
+  "dataset": "ASSISTments 2009–2010 Skill Builder corrected collapsed — download URL matched",
+  "materials_before": 9,
+  "materials_after": 23,
+  "prerequisite_edges": [
+    [
+      "311",
+      "312"
+    ],
+    [
+      "39",
+      "299"
+    ],
+    [
+      "47",
+      "70"
+    ],
+    [
+      "47",
+      "77"
+    ],
+    [
+      "67",
+      "61"
+    ]
+  ],
+  "model_sha256": "dc03cf614cbf85aaa45266f1c09b6d6f5a1aad17f0876503a10771eb809b5c44",
+  "experiment_sha256": "7b1c6e8bee333414587f7c1c116153d92bce20f81cb27077ab731496a7e44372",
+  "note": "No model training or metric changes"
+}

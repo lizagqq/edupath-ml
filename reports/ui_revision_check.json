@@ -1,0 +1,30 @@
+{
+  "app_version": "0.2.0",
+  "trajectory_contract_version": 2,
+  "related_unittests": {
+    "passed": 23,
+    "failed": 0,
+    "DataTests_run": false
+  },
+  "FastAPI_ASGI": "passed; direct handler shim, no standard worker pool",
+  "FastAPI_JSON_to_Streamlit_AppTest": "passed; all 3 pages and all 5/2/4 steps, stale API rejected",
+  "fixed_lesson_records": 23,
+  "fixed_practice_exercises": 31,
+  "math_answers": "independently recomputed in test_learning_contract; worked solutions manually reviewed",
+  "unchanged_artifact_sha256": {
+    "data/demo/edupath.db": "18e97310cfbae73ae93bbeabce63d044e300392ae1376c9e22e88c57d02f388f",
+    "models/model.json": "dc03cf614cbf85aaa45266f1c09b6d6f5a1aad17f0876503a10771eb809b5c44",
+    "reports/experiment.json": "7b1c6e8bee333414587f7c1c116153d92bce20f81cb27077ab731496a7e44372",
+    "reports/model_metrics.csv": "9720f17ad27578780969c4360beb3cbd20a845e4661ce20a5aedfba8664da3f3",
+    "docs/coursework_draft.md": "46f44f703d9c4ca3d5e7072a675c1a2e4d67b32a38bb4efb03f346f5e5cca8fa",
+    "docs/coursework_draft.docx": "a1a67e2beac82348762f3ed7eae1ef112ea8eee3e698b88ae9011a01a3f4c99c"
+  },
+  "ML_data_and_selection_code_unchanged": true,
+  "training_or_large_experiments_run": false,
+  "reported_KeyError_diagnosis": "Required fields exist in current Service; missing wire compatibility check fixed. Specific stale process in user Ubuntu not observable here.",
+  "network_probe": "127.0.0.1:8000 requests and socket bind failed with Operation not permitted",
+  "live_HTTP_verified": false,
+  "browser_visual_verified": false,
+  "responsive_layout": "CSS grid 2 columns / 1 at <=640px; browser confirmation pending at 1440,768,390px",
+  "manual_check": "docs/wsl_runbook.md"
+}

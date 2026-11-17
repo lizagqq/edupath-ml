@@ -1,0 +1,76 @@
+{
+  "dataset": "ASSISTments 2009–2010 Skill Builder corrected collapsed — download URL matched",
+  "retrieval_cases": [
+    {
+      "query": "сложение дробей",
+      "expected": "280",
+      "found": "280"
+    },
+    {
+      "query": "как умножить дроби",
+      "expected": "67",
+      "found": "67"
+    },
+    {
+      "query": "деление на дробь",
+      "expected": "61",
+      "found": "61"
+    },
+    {
+      "query": "перевести дробь в процент",
+      "expected": "47",
+      "found": "47"
+    },
+    {
+      "query": "какой процент составляет часть",
+      "expected": "77",
+      "found": "77"
+    },
+    {
+      "query": "вычислить процент от числа",
+      "expected": "70",
+      "found": "70"
+    },
+    {
+      "query": "решить пропорцию",
+      "expected": "79",
+      "found": "79"
+    },
+    {
+      "query": "уравнение два действия",
+      "expected": "311",
+      "found": "311"
+    },
+    {
+      "query": "уравнение со скобками",
+      "expected": "312",
+      "found": "312"
+    }
+  ],
+  "hit_at_1": 1.0,
+  "routes": {
+    "79021": [
+      "292",
+      "290",
+      "2_37_70",
+      "39",
+      "299"
+    ],
+    "75169": [
+      "292",
+      "9_12"
+    ],
+    "78970": [
+      "16_17",
+      "290",
+      "17",
+      "294"
+    ]
+  },
+  "distinct_routes": 3,
+  "in_process_api_dispatch_ms": {
+    "median": 14.986,
+    "p95": 20.008,
+    "note": "Direct handler call; excludes HTTP transport because sandbox denies sockets."
+  }
+}

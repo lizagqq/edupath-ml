@@ -1,0 +1,12 @@
+{
+  "docx_xml": "valid",
+  "embedded_figures": 12,
+  "numbered_tables": 15,
+  "physical_table_parts": 17,
+  "headings": 71,
+  "all_saved_metrics_present": true,
+  "model_and_experiment_hashes_unchanged": true,
+  "word_count_md": 12197,
+  "pagination": "Not rendered; update TOC and page references in Word/LibreOffice",
+  "application_tests": "Existing reports only; not rerun for documentation-only changes"
+}

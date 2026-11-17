@@ -1,0 +1,150 @@
+{
+  "file": "data/raw/skill_builder_data_corrected_collapsed.csv",
+  "bytes": 64412812,
+  "sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "download_metadata_id": "1NNXHFRxcArrU0ZJSb9BIL56vmUt5FhlE",
+  "download_metadata_matches_official_id": true,
+  "columns": [
+    "",
+    "order_id",
+    "assignment_id",
+    "user_id",
+    "assistment_id",
+    "problem_id",
+    "original",
+    "correct",
+    "attempt_count",
+    "ms_first_response",
+    "tutor_mode",
+    "answer_type",
+    "sequence_id",
+    "student_class_id",
+    "position",
+    "type",
+    "base_sequence_id",
+    "skill_id",
+    "skill_name",
+    "teacher_id",
+    "school_id",
+    "hint_count",
+    "hint_total",
+    "overlap_time",
+    "template_id",
+    "answer_id",
+    "answer_text",
+    "first_action",
+    "bottom_hint",
+    "opportunity",
+    "opportunity_original"
+  ],
+  "rows": 346860,
+  "valid_rows": 283105,
+  "rejected": {
+    "missing_skill_or_invalid_required_field": 63755
+  },
+  "missing_by_column": {
+    "skill_name": 72270,
+    "skill_id": 63755
+  },
+  "target_counts_before_filter": {
+    "1": 223818,
+    "0": 123042
+  },
+  "target_counts_after_filter": {
+    "1": 186322,
+    "0": 96783
+  },
+  "students_after_filter": 4163,
+  "skills_after_filter": 149,
+  "skill_name_values_after_filter": 112,
+  "malformed_utf8_byte_0x80_count": 5,
+  "duplicate_user_order_pairs": 0,
+  "repeated_user_problem_pairs": 4779,
+  "responses_per_student_after_filter": {
+    "min": 1,
+    "median": 20,
+    "max": 1061
+  },
+  "top_skills": [
+    {
+      "skill_id": "311",
+      "count": 24253
+    },
+    {
+      "skill_id": "47",
+      "count": 18739
+    },
+    {
+      "skill_id": "277",
+      "count": 12741
+    },
+    {
+      "skill_id": "280",
+      "count": 11334
+    },
+    {
+      "skill_id": "312",
+      "count": 8115
+    },
+    {
+      "skill_id": "79",
+      "count": 8068
+    },
+    {
+      "skill_id": "279",
+      "count": 7058
+    },
+    {
+      "skill_id": "27",
+      "count": 6590
+    },
+    {
+      "skill_id": "18",
+      "count": 6557
+    },
+    {
+      "skill_id": "50",
+      "count": 6117
+    },
+    {
+      "skill_id": "77",
+      "count": 6109
+    },
+    {
+      "skill_id": "67",
+      "count": 5547
+    },
+    {
+      "skill_id": "74_92",
+      "count": 5501
+    },
+    {
+      "skill_id": "325",
+      "count": 5398
+    },
+    {
+      "skill_id": "49",
+      "count": 4895
+    },
+    {
+      "skill_id": "310",
+      "count": 4659
+    },
+    {
+      "skill_id": "46",
+      "count": 4434
+    },
+    {
+      "skill_id": "278",
+      "count": 4320
+    },
+    {
+      "skill_id": "70",
+      "count": 4263
+    },
+    {
+      "skill_id": "16_17",
+      "count": 4073
+    }
+  ]
+}

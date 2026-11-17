@@ -1,0 +1,70 @@
+{
+  "dataset": "ASSISTments 2009–2010 Skill Builder corrected collapsed — download URL matched",
+  "source_file": "/home/liza/coursework-ml/data/raw/skill_builder_data_corrected_collapsed.csv",
+  "source_file_bytes": 64412812,
+  "source_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "source_url_matched": true,
+  "source_rows": 346860,
+  "dataset_summary": {
+    "responses": 283105,
+    "students": 4163,
+    "skills": 149,
+    "correct_rate": 0.6581374401723742
+  },
+  "source_valid_rows": 283105,
+  "selected_fraction_of_valid_rows": 1.0,
+  "rejected": {
+    "missing_or_invalid": 63755
+  },
+  "train_responses": 223463,
+  "test_responses": 59642,
+  "train_students": 3330,
+  "test_students": 833,
+  "split_user_overlap": 0,
+  "split_seed": 42,
+  "validation_scheme": "disjoint user_id groups; online causal history within each test user",
+  "prediction_target": "correct for the next response on a specified skill",
+  "features": [
+    "bias",
+    "log_prior_count",
+    "prior_success",
+    "log_prior_skill_count",
+    "prior_skill_success",
+    "skill_one_hot"
+  ],
+  "forbidden_current_fields_used": [],
+  "model": "logistic_sgd",
+  "model_epochs": 18,
+  "model_training_seconds": 13.928,
+  "metrics": {
+    "constant": {
+      "accuracy": 0.6561986519566748,
+      "precision": 0.6561986519566748,
+      "recall": 1.0,
+      "f1": 0.7924153919355329,
+      "roc_auc": 0.5,
+      "log_loss": 0.6435381520311333,
+      "brier": 0.22560801428315513
+    },
+    "history_rule": {
+      "accuracy": 0.6861942926125885,
+      "precision": 0.7039611673758015,
+      "recall": 0.9004522574545826,
+      "f1": 0.7901746675934438,
+      "roc_auc": 0.6670000038691387,
+      "log_loss": 0.6069003520338878,
+      "brier": 0.20883730934427533
+    },
+    "logistic_sgd": {
+      "accuracy": 0.7121323899265618,
+      "precision": 0.7393236883388531,
+      "recall": 0.8670056468303651,
+      "f1": 0.7980901532346265,
+      "roc_auc": 0.7275514781271826,
+      "log_loss": 0.5652528711198278,
+      "brier": 0.19141531163827993
+    }
+  },
+  "limitation": "Offline user holdout is not prospective validation; predicted next response is not mastery.",
+  "mlflow": "unavailable: package not installed"
+}

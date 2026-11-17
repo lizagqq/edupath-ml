@@ -1,0 +1,20 @@
+{
+  "chapter_2_markdown_unchanged": true,
+  "chapter_3_markdown_unchanged": true,
+  "conclusion_unchanged": true,
+  "appendices_unchanged": true,
+  "front_matter_unchanged": true,
+  "protected_files_unchanged": true,
+  "changed_protected_files": [],
+  "chapter_2_docx_paragraphs_unchanged": true,
+  "chapter_3_docx_paragraphs_unchanged": true,
+  "embedded_figures_unchanged": true,
+  "introduction_words": 450,
+  "chapter_1_words": 4023,
+  "bibliography_items": 19,
+  "introduction_has_no_formulas_or_training_session_notes": true,
+  "chapter_2_all_docx_content_unchanged_except_bookmark_ids": true,
+  "chapter_3_all_docx_content_unchanged_except_bookmark_ids": true,
+  "all_five_added_scientific_sources_cited": true,
+  "final_protected_hash_recheck": "passed"
+}
